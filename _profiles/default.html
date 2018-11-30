@@ -48,13 +48,17 @@ parameters:
 # https://github.com/speedtracker/speedtracker-api/blob/master/lib/SpeedTracker.js#L18-L37
 #
 budgets:
-  - metric: TTFB
+  - 
+    metric: TTFB
     max: 700
     alerts: ["emailAlert", "slackAlert"]
-  - metric: firstPaint
+  - 
+    metric: firstPaint
     max: 2000
     alerts: ["slackAlert"]
-  - metric: fullyLoaded
+  - 
+    metric: fullyLoaded
     max: 6000
     alerts: ["mainAlert", "slackAlert"]
 ---
+
