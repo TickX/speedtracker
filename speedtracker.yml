@@ -66,16 +66,16 @@ wptKey: "5cd3d3a5e69a3d1b15ee313c9e0cb2fe5b1423b8069452152a241217795ca2c4"
 #                                                                             #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-#alerts:
-emailAlert:
+alerts:
+  emailAlert:
     type: "email"
     recipients: ["1ad88fa5a0924f5b4fbc3f22d358edb44a4b", "1bc495a0a08f4f5b4fbc3f22d358edb44a4b"]
 #  otherEmailAlert:
 #    type: "email"
 #    recipients: ["ENCRYPTED_EMAIL_ADDRESS2", "ENCRYPTED_EMAIL_ADDRESS3"]
- slackAlert:
-   type: "slack"
-   hookUrl: "00c494b1a1c120004eb03b318e15f1f65e432ef05498075b6b7658517507f7d4d480a723b05ea023c17cf82549b14bb75e25421cee0916bd4cdc2c925c6a1d515600d5dc6c8bb42f96a5892308"
-   channel: "#speedtracker"
-   username: "speedtracker"
-   iconEmoji: ":grimacing:"
+  slackAlert:
+    type: "slack"
+    hookUrl: "00c494b1a1c120004eb03b318e15f1f65e432ef05498075b6b7658517507f7d4d480a723b05ea023c17cf82549b14bb75e25421cee0916bd4cdc2c925c6a1d515600d5dc6c8bb42f96a5892308"
+    channel: "#speedtracker"
+    username: "speedtracker"
+    iconEmoji: ":grimacing:"
