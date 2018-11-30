@@ -37,7 +37,7 @@
 #                                                                             #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-encryptionKey: "YOUR_ENCRYPTED_KEY"
+encryptionKey: "02c49198b8b94d776bad2368"
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -67,15 +67,15 @@ wptKey: "YOUR_ENCRYPTED_WEBPAGETEST_KEY"
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 #alerts:
-#  emailAlert:
-#    type: "email"
-#    recipients: ["ENCRYPTED_EMAIL_ADDRESS"]
+emailAlert:
+    type: "email"
+    recipients: ["1ad88fa5a0924f5b4fbc3f22d358edb44a4b", "1bc495a0a08f4f5b4fbc3f22d358edb44a4b"]
 #  otherEmailAlert:
 #    type: "email"
 #    recipients: ["ENCRYPTED_EMAIL_ADDRESS2", "ENCRYPTED_EMAIL_ADDRESS3"]
-#  slackAlert:
-#    type: "slack"
-#    hookUrl: "ENCRYPTED_SLACK_HOOK_URL"
-#    channel: "#speedtracker"
-#    username: "SpeedTracker"
-#    iconEmoji: ":grimacing:"
+ slackAlert:
+   type: "slack"
+   hookUrl: "00c494b1a1c120004eb03b318e15f1f65e432ef05498075b6b7658517507f7d4d480a723b05ea023c17cf82549b14bb75e25421cee0916bd4cdc2c925c6a1d515600d5dc6c8bb42f96a5892308"
+   channel: "#speedtracker"
+   username: "speedtracker"
+   iconEmoji: ":grimacing:"
